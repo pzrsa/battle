@@ -23,6 +23,7 @@ class Battle < Sinatra::Base
   end
 
   get "/attack" do
+    $player_2.points -= 10
     erb(:attack)
   end
 end
