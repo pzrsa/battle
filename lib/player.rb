@@ -6,4 +6,8 @@ class Player
     @name = name
     @points = 50
   end
+
+  def receive_damage
+    @points -= 10
+  end
 end
