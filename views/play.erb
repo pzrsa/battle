@@ -8,11 +8,11 @@
 </head>
 <body>
     <div class="names">
-    <%= @player_1 %> VS <%= @player_2 %>
+    <%= $player_1.name %> VS <%= $player_2.name %>
     </div>
 
    <div class="points">
-    Player 1: <%= @player_1_points %> HP & Player 2: <%= @player_2_points%> HP
+    Player 1: <%= $player_1.points %> HP & Player 2: <%= $player_2.points %> HP
    </div> 
 
 <form action="/attack">
